@@ -4,7 +4,12 @@ import gsap from "gsap";
 
 const Cursor = () => {
   const cursorRef = useRef<HTMLDivElement>(null);
+  const isTouchOrMobile =
+    typeof window !== "undefined" &&
+    (window.innerWidth <= 1024 || "ontouchstart" in window);
+
   useEffect(() => {
+    if (isTouchOrMobile) return;
     let hover = false;
     const cursor = cursorRef.current!;
     const mousePos = { x: 0, y: 0 };
@@ -46,8 +51,9 @@ const Cursor = () => {
         hover = false;
       });
     });
-  }, []);
+  }, [isTouchOrMobile]);
 
+  if (isTouchOrMobile) return null;
   return <div className="cursor-main" ref={cursorRef}></div>;
 };
 

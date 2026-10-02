@@ -11,6 +11,15 @@ export let lenis: Lenis | null = null;
 
 const Navbar = () => {
   useEffect(() => {
+    // Only use Lenis smooth scroll on desktop non-touch devices
+    const isTouchOrMobile = window.innerWidth <= 1024 || "ontouchstart" in window;
+    if (isTouchOrMobile) {
+      document.body.style.overflow = "auto";
+      document.body.style.overflowY = "auto";
+      lenis = null;
+      return;
+    }
+
     // Initialize Lenis smooth scroll
     lenis = new Lenis({
       duration: 1.7,

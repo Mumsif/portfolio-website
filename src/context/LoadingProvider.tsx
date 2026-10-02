@@ -15,10 +15,15 @@ interface LoadingType {
 
 export const LoadingContext = createContext<LoadingType | null>(null);
 
+const checkIsMobile = () => {
+  if (typeof window === "undefined") return false;
+  return window.innerWidth <= 1024 || "ontouchstart" in window;
+};
+
 export const LoadingProvider = ({ children }: PropsWithChildren) => {
   const [isLoading, setIsLoading] = useState(() => {
-    // Skip loading on mobile
-    if (window.innerWidth <= 768) return false;
+    // Never show full-screen 3D loader on mobile/tablet screens
+    if (checkIsMobile()) return false;
     return true;
   });
   const [loading, setLoading] = useState(0);
@@ -28,20 +33,30 @@ export const LoadingProvider = ({ children }: PropsWithChildren) => {
     setIsLoading,
     setLoading,
   };
+
   useEffect(() => {
-    // Auto-start animations on mobile since there's no 3D model
-    if (window.innerWidth <= 768) {
+    if (checkIsMobile()) {
+      // Ensure scrolling is immediately unlocked on mobile
+      document.body.style.overflow = "auto";
+      document.body.style.overflowY = "auto";
       import("../components/utils/initialFX").then((module) => {
         if (module.initialFX) {
           setTimeout(() => {
             module.initialFX();
-          }, 100);
+          }, 50);
         }
       });
+    } else {
+      // Safety fallback: if desktop 3D loader hangs or WebGL fails, dismiss loader after 3.5s
+      const fallbackTimer = setTimeout(() => {
+        setIsLoading(false);
+        document.body.style.overflow = "auto";
+        document.body.style.overflowY = "auto";
+      }, 3500);
+
+      return () => clearTimeout(fallbackTimer);
     }
   }, []);
-
-  useEffect(() => {}, [loading]);
 
   return (
     <LoadingContext.Provider value={value as LoadingType}>
