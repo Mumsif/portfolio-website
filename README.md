@@ -1,57 +1,57 @@
-# 🚀 3D Developer Portfolio Website (React + TypeScript + Three.js)
+# 🚀 Sharifdeen Mumsif - Portfolio Website
 
-[![3D portfolio preview (click to watch video)](./Screenshot_2026-04-08_22-10-00.png)](./video.mp4)
-
-A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
-
-If you’re a developer looking for a **portfolio template** that feels premium, interactive, and memorable—this repo is for you.
-
-> Live preview: https://www.redoyanulhaque.me/
+A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**, showcasing the work and engineering journey of **Sharifdeen Mumsif** (Mobile App & Full Stack Developer).
 
 ---
 
-## ✨ Highlights
+## 👨‍💻 About Sharifdeen Mumsif
 
-- **3D / WebGL experience** powered by **Three.js**
-- Smooth animations with **GSAP**
-- Modern **React + TypeScript** codebase
-- Fast, responsive UI (desktop + mobile)
-- Designed for developers, engineers, programmers, and creators
+- **Role**: Mobile App & Full Stack Developer
+- **Location**: Akkaraipattu, Sri Lanka
+- **Education**: Currently pursuing Higher National Diploma (HND) in Information Technology at SLIATE (2024–2026)
+- **GitHub**: [https://github.com/Mumsif](https://github.com/Mumsif)
+- **LinkedIn**: [https://linkedin.com/in/mumsif-sherifdeen](https://linkedin.com/in/mumsif-sherifdeen)
+- **Instagram**: [https://instagram.com/mumsif_dev](https://instagram.com/mumsif_dev)
+- **Email**: mumsifmumsif@gmail.com
+
+---
+
+## 📱 Featured Projects
+
+- **Flow Tasks**: Full-stack task & productivity management app (Flutter + Java Spring Boot).
+- **Elite Music**: Modern native Android music player crafted with Jetpack Compose & Material 3.
+- **Expense Tracker**: Clean, responsive personal finance mobile app powered by Flutter and Google Firebase.
+- **ReadHub**: Spring Boot news aggregator and automated content curation web platform.
+- **Cinemax**: Flutter movie discovery & interactive cinema seat booking app.
+- **Plant Care**: Smart indoor plant care mobile application with watering schedules and sunlight tracking.
 
 ---
 
 ## 🧰 Tech Stack
 
-- **React**
-- **TypeScript**
-- **Three.js / WebGL**
-- **GSAP**
-- **HTML / CSS / JavaScript**
+- **Mobile**: Flutter, Dart, Kotlin, Jetpack Compose, Android SDK
+- **Backend**: Java, Spring Boot, Hibernate, RESTful APIs
+- **Frontend & Web**: React, TypeScript, JavaScript, Vite, HTML5, CSS3, Tailwind CSS
+- **Databases & Cloud**: Firebase (Firestore, Auth), Supabase, MySQL, MSSQL, SQLite, MongoDB
+- **Tools & DevOps**: Android Studio, VS Code, Git, GitHub Actions, Vercel, Docker, Postman, Figma
 
 ---
 
 ## 🚀 Getting Started
 
-### 1) Clone
-
-```bash
-git clone https://github.com/red1-for-hek/portfolio-website.git
-cd portfolio-website
-```
-
-### 2) Install
+### 1) Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3) Run locally
+### 2) Run Locally
 
 ```bash
 npm run dev
 ```
 
-### 4) Build
+### 3) Build for Production
 
 ```bash
 npm run build
@@ -59,41 +59,6 @@ npm run build
 
 ---
 
-## 🧩 Customize (Quick Guide)
-
-Typical things you’ll want to update:
-
-- **Your name + hero section text**
-- **Projects list**
-- **Social links** (GitHub, LinkedIn, email)
-- **SEO meta title/description**
-
----
-
-## ⭐ Support
-
-If you found this useful:
-
-- Please **star** the repository (it helps a lot)
-- Share it with a friend who needs a portfolio template
-- Sponsor via the **Sponsor** button on GitHub (if available in your region)
-
----
-
-## 🤝 Connect
-
-- LinkedIn: https://www.linkedin.com/in/red1-for-hek/
-
----
-
-## 🏷️ Recommended GitHub Topics (add in repo settings)
-
-Add these topics to improve GitHub search visibility:
-
-`portfolio` `developer-portfolio` `portfolio-website` `portfolio-template` `3d-portfolio` `react` `typescript` `threejs` `webgl` `gsap` `frontend` `vite`
-
----
-
 ## 🪪 License
 
-This project is open source and available under the **MIT License**. See [LICENSE](LICENSE).
+This project is licensed under the [MIT License](LICENSE) - Copyright (c) 2026 Sharifdeen Mumsif.

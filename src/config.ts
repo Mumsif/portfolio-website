@@ -1,192 +1,156 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Mumsif",
+        fullName: "Sharifdeen Mumsif",
+        title: "Mobile App & Full Stack Developer",
+        description: "Mobile App & Full Stack Developer passionate about crafting elegant cross-platform mobile apps with Flutter & Jetpack Compose, paired with robust backends using Spring Boot, modern web frontends with React, and cloud databases."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "Mumsif",
+        email: "mumsifmumsif@gmail.com",
+        location: "Akkaraipattu, Sri Lanka"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I am Sharifdeen Mumsif, a Mobile App & Full Stack Developer from Akkaraipattu, Sri Lanka, currently pursuing a Higher National Diploma (HND) in Information Technology at SLIATE (academic studies 2024–2026, seeking a 6-month industry internship starting September 2026). I specialize in building responsive, high-performance mobile applications with Flutter, Jetpack Compose, and native Android (Kotlin/Java), integrated with scalable backends in Spring Boot, dynamic frontend in React, and cloud ecosystems like Firebase and Supabase. Driven by clean architecture, intuitive UI/UX design, and relentless problem-solving, I turn ideas into seamless digital experiences across mobile and web."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "Seeking 6-Month Internship",
+            company: "Open To Opportunities",
+            period: "From Sep 2026",
+            displayYear: "2026",
+            location: "Sri Lanka / Remote",
+            description: "Actively seeking a 6-month industry internship starting September 2026 as part of the HNDIT program at SLIATE. Ready to contribute hands-on in Flutter mobile app development, native Android (Kotlin), Java Spring Boot backends, or React web development.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Available for Software Engineering, Mobile App (Flutter / Android), and Full-Stack Internships",
+                "Eager to build high-performance mobile apps and robust backend services",
+                "Strong foundation in clean code, agile workflows, and rapid problem-solving"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["Flutter", "Kotlin", "Spring Boot", "React", "Firebase", "MySQL"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            position: "Mobile App & Full Stack Developer",
+            company: "Building & Projects",
+            period: "2024 - Present",
+            displayYear: "NOW",
+            location: "Akkaraipattu, Sri Lanka",
+            description: "Designing and building high-performance mobile applications with Flutter and native Android (Jetpack Compose), integrated with Spring Boot REST APIs, modern React frontends, and Firebase cloud services.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Developing cross-platform mobile applications using Flutter and Dart",
+                "Crafting reactive native Android UIs using Jetpack Compose and Kotlin",
+                "Engineering robust backend services and REST APIs with Java Spring Boot",
+                "Building interactive web interfaces with React and integrating cloud databases"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            technologies: ["Flutter", "Kotlin", "Jetpack Compose", "Java", "Spring Boot", "React", "Firebase"]
         },
         {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            position: "HND in Information Technology",
+            company: "SLIATE",
+            period: "2024 - 2026",
+            displayYear: "2024",
+            location: "Sri Lanka",
+            description: "Currently pursuing the Higher National Diploma in Information Technology (academic study 2024 – 2026 at SLIATE). Completing comprehensive coursework in Software Engineering, OOP (Java, C#, PHP), and database systems ahead of the scheduled 6-month industry internship starting September 2026.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Mastering Object-Oriented Programming (Java, C#, PHP) and architectural design",
+                "Studying Data Structures, Algorithms, Relational Database Management (MySQL), and Web Technologies",
+                "Developing academic software projects and client-server database solutions",
+                "Preparing for the scheduled 6-month industry internship starting September 2026"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
+            technologies: ["Java", "Spring Boot", "React", "C#", "PHP", "MySQL", "OOP", "Software Engineering"]
         },
         {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
+            position: "Full-Stack Web & Mobile Exploration",
+            company: "Independent Projects",
+            period: "2024 - 2025",
+            displayYear: "2024",
+            location: "Sri Lanka",
+            description: "Engineered full-stack applications including ReadHub (Spring Boot news aggregator) and mobile solutions like Expense Tracker and Cinemax, focusing on clean architecture, REST APIs, and responsive design.",
             responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
+                "Architecting Spring Boot web applications with MVC pattern and database persistence",
+                "Designing interactive, responsive web interfaces with React and modern CSS3",
+                "Implementing state management and real-time cloud sync with Firebase in Flutter",
+                "Configuring automated build pipelines, GitHub Actions, and cloud deployment"
             ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["Spring Boot", "React", "Flutter", "Firebase", "MySQL", "REST APIs", "Git"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/Drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali.",
-            link: "https://huggingface.co/red1-for-hek/drishti-ilm-x1"
+            title: "Flow Tasks",
+            category: "Mobile & Spring Boot",
+            technologies: "Flutter, Dart, Spring Boot, Java, MySQL, REST APIs",
+            image: "/images/flowtasks.png",
+            description: "A full-stack productivity & task management system featuring a responsive Flutter mobile client paired with a robust Java Spring Boot backend API with real-time task workflows and database persistence.",
+            link: "https://github.com/Mumsif/flow_tasks"
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/VoteChain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking.",
-            link: "https://github.com/red1-for-hek/smart-election-by-blockchain"
+            title: "Elite Music",
+            category: "Native Android",
+            technologies: "Kotlin, Jetpack Compose, Android Media3, Coroutines, Material 3",
+            image: "/images/elitemusic.png",
+            description: "A sleek, modern native Android music player crafted with Jetpack Compose, featuring an audio playback engine, playlist management, reactive UI states, dynamic theming, and local media indexing.",
+            link: "https://github.com/Mumsif/elite-music-app"
+        },
+        {
+            id: 3,
+            title: "Expense Tracker",
+            category: "Mobile / Fintech",
+            technologies: "Flutter, Dart, Firebase Firestore, Firebase Auth, Provider",
+            image: "/images/expensetracker.png",
+            description: "A clean, responsive personal finance mobile app developed with Flutter and powered by Google Firebase. Features categorized expense logging, monthly budget insights, and cloud synchronization.",
+            link: "https://github.com/Mumsif/expense_tracker"
         },
         {
             id: 4,
-            title: "Flood Spaces 2.0",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/FloodSpaces.png",
-            description: "Predicts flood risks across Bangladesh up to one month in advance and sends early alerts to help people prepare.",
-            link: "https://github.com/red1-for-hek/Flood-Spaces-2.0"
+            title: "ReadHub",
+            category: "Full-Stack Web",
+            technologies: "Java, Spring Boot, MySQL, Thymeleaf, React, HTML5, CSS3, REST APIs",
+            image: "/images/readhub.png",
+            description: "An intelligent news aggregator and content curation web platform developed with Spring Boot. Features automated feed aggregation, category filtering, search, and article bookmarking.",
+            link: "https://github.com/Mumsif/ReadHub"
         },
         {
             id: 5,
-            title: "Phoenix 3.0",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/Phoenix3.0.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience.",
-            link: "https://github.com/red1-for-hek/phoenix3.0"
+            title: "Cinemax",
+            category: "Mobile Application",
+            technologies: "Flutter, Dart, State Management, Custom UI/UX, REST APIs",
+            image: "/images/cinemax.png",
+            description: "A cinema & movie seat booking mobile application built with Flutter. Offers movie discovery, interactive hall seat selection, showtime booking, and digital ticket passes with a dark cinematic UI.",
+            link: "https://github.com/Mumsif/Cinemax"
         },
         {
             id: 6,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/RedxChess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation.",
-            link: "/play"
-        },
-        {
-            id: 7,
-            title: "Prodesk",
-            category: "E-commerce",
-            technologies: "React, Node.js, MongoDB, Express, Stripe",
-            image: "/images/Prodesk.png",
-            description: "A complete e-commerce platform with secure checkout and smooth product browsing.",
-            link: "https://github.com/red1-for-hek/prodesk"
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes.",
-            link: ""
+            title: "Plant Care",
+            category: "Mobile Application",
+            technologies: "Flutter, Dart, Local Storage, Notifications, UI Animations",
+            image: "/images/plantcare.png",
+            description: "A smart indoor plant care mobile application with watering schedules, species cataloging, sunlight requirement trackers, and push notifications for plant wellness.",
+            link: "https://github.com/Mumsif/plant_care"
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "mumsifmumsif@gmail.com",
+        github: "https://github.com/Mumsif",
+        linkedin: "https://linkedin.com/in/mumsif-sherifdeen",
+        twitter: "https://github.com/Mumsif",
+        facebook: "https://linkedin.com/in/mumsif-sherifdeen",
+        instagram: "https://instagram.com/mumsif_dev"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "MOBILE APP DEVELOPER",
+            description: "Building high-performance cross-platform & native mobile apps",
+            details: "Crafting responsive, fluid mobile applications using Flutter and native Android with Jetpack Compose & Kotlin. Specialized in state management, smooth UI animations, offline caching, and native hardware integration.",
+            tools: ["Flutter", "Dart", "Kotlin", "Jetpack Compose", "Android SDK", "Firebase", "Provider", "Riverpod", "Material 3", "REST APIs"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "FULL-STACK & BACKEND",
+            description: "Spring Boot backends & modern React web applications",
+            details: "Developing secure, scalable RESTful APIs and server architectures using Spring Boot (Java) alongside dynamic, responsive web interfaces built with React. Designing structured databases with MySQL, Supabase, and MongoDB.",
+            tools: ["Java", "Spring Boot", "React", "TypeScript", "JavaScript", "MySQL", "Supabase", "Git", "GitHub Actions", "Docker"]
         }
     }
 };
-
-
